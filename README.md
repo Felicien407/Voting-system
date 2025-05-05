@@ -19,18 +19,21 @@ The system is divided into:
 ## 🧩 Features
 
 ### 👥 User
+
 - Register and login (JWT-based authentication)
 - View candidates
 - Cast a vote (only once)
 - See election results after voting
 
 ### 🛠️ Admin
+
 - Manage users and candidates
 - Create and manage elections
 - View live results
 - Restrict voting access
 
 ### 🖥️ System
+
 - Full-stack app with RESTful architecture
 - Reusable and modular components
 - Role-based access control
@@ -41,14 +44,14 @@ The system is divided into:
 
 ## 🛠️ Tech Stack
 
-| Layer        | Tech                      |
-|--------------|---------------------------|
-| Frontend     | React.js / Next.js (TBD)  |
-| Backend      | FastAPI                   |
-| Database     | MongoDB + Motor (Async)   |
-| Auth         | JWT, OAuth2               |
-| Styling      | TailwindCSS (if React)    |
-| Deployment   | Docker, Render / Vercel   |
+| Layer      | Tech                     |
+| ---------- | ------------------------ |
+| Frontend   | React.js / Next.js (TBD) |
+| Backend    | FastAPI                  |
+| Database   | MongoDB + Motor (Async)  |
+| Auth       | JWT, OAuth2              |
+| Styling    | TailwindCSS (if React)   |
+| Deployment | Docker, Render / Vercel  |
 
 ---
 
@@ -58,11 +61,11 @@ voting-system/
 ├── backend/
 │ ├── app/
 │ │ ├── main.py
-│ │ ├── models/ # MongoDB data models
+│ │ ├── models/
 │ │ ├── routes/
 │ │ ├── controllers/
 │ │ ├── schemas/
-│ │ └── database/ # MongoDB connection logic
+│ │ └── database/
 │ └── requirements.txt
 ├── frontend/
 │ ├── public/
